@@ -1,5 +1,6 @@
 const questions = [
   {
+  id: "head",
   question:"Do you have poor memory?",
   answers:{
       a: "YES",
@@ -7,6 +8,7 @@ const questions = [
   },
 },
 {
+  id: "head",
   question:"Do you have misplaced items?",
   answers:{
       a: "YES",
@@ -14,6 +16,7 @@ const questions = [
   },
 },
 {
+  id: "head",
   question:"Do you have trouble thinking?",
   answers:{
       a: "YES",
@@ -21,6 +24,7 @@ const questions = [
   },
 },
 {
+  id: "head",
   question:"Do you have hard to find the decisions?",
   answers:{
       a: "YES",
@@ -28,6 +32,7 @@ const questions = [
   },
 },
 {
+  id: "exerciseAbility",
   question:"Do you have less flexible?",
   answers:{
       a: "YES",
@@ -35,6 +40,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have feeling more thirsty?",
   answers:{
       a: "YES",
@@ -42,6 +48,7 @@ const questions = [
   },
 },
 {
+  id: "urinary",
   question:"Do you have urinating often?",
   answers:{
       a: "YES",
@@ -49,6 +56,7 @@ const questions = [
   },
 },
 {
+  id: "mental",
   question:"Do you have feeling irritable?",
   answers:{
       a: "YES",
@@ -56,6 +64,7 @@ const questions = [
   },
 },
 {
+  id: "head",
   question:"Do you have blurry vision?",
   answers:{
       a: "YES",
@@ -63,6 +72,7 @@ const questions = [
   },
 },
 {
+  id: "skin",
   question:"Do you have slow-healing sores?",
   answers:{
       a: "YES",
@@ -70,6 +80,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have getting a lot of infections?",
   answers:{
       a: "YES",
@@ -77,6 +88,7 @@ const questions = [
   },
 },
 {
+  id: "blood",
   question:"Do you have uncontrolled high blood pressure?",
   answers:{
       a: "YES",
@@ -84,6 +96,7 @@ const questions = [
   },
 },
 {
+  id: "blood",
   question:"Do you have overtreatment with blood thinners?",
   answers:{
       a: "YES",
@@ -91,6 +104,7 @@ const questions = [
   },
 },
 {
+  id: "blood",
   question:"Do you have bulges in blood vessel walls?",
   answers:{
       a: "YES",
@@ -98,6 +112,7 @@ const questions = [
   },
 },
 {
+  id: "blood",
   question:"Do you have ischemic stroke?",
   answers:{
       a: "YES",
@@ -105,6 +120,7 @@ const questions = [
   },
 },
 {
+  id: "mental",
   question:"Do you have trauma?",
   answers:{
       a: "YES",
@@ -112,6 +128,7 @@ const questions = [
   },
 },
 {
+  id: "mental",
   question:"Do you have changes in mental awareness?",
   answers:{
       a: "YES",
@@ -119,6 +136,7 @@ const questions = [
   },
 },
 {
+  id: "respiratory",
   question:"Do you have cough with phlegm?",
   answers:{
       a: "YES",
@@ -126,6 +144,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have low body temperature?",
   answers:{
       a: "YES",
@@ -133,6 +152,7 @@ const questions = [
   },
 },
 {
+  id: "digestive",
   question:"Do you have diarrhea?",
   answers:{
       a: "YES",
@@ -140,6 +160,7 @@ const questions = [
   },
 },
 {
+  id: "respiratory",
   question:"Do you have cough with mucus?",
   answers:{
       a: "YES",
@@ -147,6 +168,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have fatigue?",
   answers:{
       a: "YES",
@@ -154,6 +176,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have fever?",
   answers:{
       a: "YES",
@@ -161,6 +184,7 @@ const questions = [
   },
 },
 {
+  id: "respiratory",
   question:"Do you have cough up blood?",
   answers:{
       a: "YES",
@@ -168,6 +192,7 @@ const questions = [
   },
 },
 {
+  id: "respiratory",
   question:"Do you have chest pain when breathing?",
   answers:{
       a: "YES",
@@ -175,6 +200,7 @@ const questions = [
   },
 },
 {
+  id: "skin",
   question:"Do you have night sweats?",
   answers:{
       a: "YES",
@@ -182,6 +208,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have not hungry?",
   answers:{
       a: "YES",
@@ -189,6 +216,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have tiredness?",
   answers:{
       a: "YES",
@@ -196,6 +224,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have extreme thirst?",
   answers:{
       a: "YES",
@@ -203,6 +232,7 @@ const questions = [
   },
 },
 {
+  id: "urinary",
   question:"Do you have less frequent urination?",
   answers:{
       a: "YES",
@@ -210,6 +240,7 @@ const questions = [
   },
 },
 {
+  id: "urinary",
   question:"Do you have dark-colored urine?",
   answers:{
       a: "YES",
@@ -217,6 +248,7 @@ const questions = [
   },
 },
 {
+  id: "mental",
   question:"Do you have dizziness?",
   answers:{
       a: "YES",
@@ -224,6 +256,7 @@ const questions = [
   },
 },
 {
+  id: "mental",
   question:"Do you have confusion?",
   answers:{
       a: "YES",
@@ -231,6 +264,7 @@ const questions = [
   },
 },
 {
+  id: "respiratory",
   question:"Do you have shortness of breath?",
   answers:{
       a: "YES",
@@ -238,6 +272,7 @@ const questions = [
   },
 },
 {
+  id: "muscleAndBone",
   question:"Do you have chest pain?",
   answers:{
       a: "YES",
@@ -245,6 +280,7 @@ const questions = [
   },
 },
 {
+  id: "respiratory",
   question:"Do you have hoarseness?",
   answers:{
       a: "YES",
@@ -252,6 +288,7 @@ const questions = [
   },
 },
 {
+  id: "muscleAndBone",
   question:"Do you have bone pain?",
   answers:{
       a: "YES",
@@ -259,6 +296,7 @@ const questions = [
   },
 },
 {
+  id: "head",
   question:"Do you have headache?",
   answers:{
       a: "YES",
@@ -266,6 +304,7 @@ const questions = [
   },
 },
 {
+  id: "skin",
   question:"Do you have easily bleeding?",
   answers:{
       a: "YES",
@@ -273,6 +312,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have loss of appetite?",
   answers:{
       a: "YES",
@@ -280,6 +320,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have nausea?",
   answers:{
       a: "YES",
@@ -287,6 +328,7 @@ const questions = [
   },
 },
 {
+  id: "skin",
   question:"Do you have swelling?",
   answers:{
       a: "YES",
@@ -294,6 +336,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have weight loss?",
   answers:{
       a: "YES",
@@ -301,6 +344,7 @@ const questions = [
   },
 },
 {
+  id: "skin",
   question:"Do you have itchy skin?",
   answers:{
       a: "YES",
@@ -308,6 +352,7 @@ const questions = [
   },
 },
 {
+  id: "skin",
   question:"Do you have redness in the palms of the hands?",
   answers:{
       a: "YES",
@@ -315,6 +360,7 @@ const questions = [
   },
 },
 {
+  id: "muscleAndBone",
   question:"Do you have muscle aches and joint pain?",
   answers:{
       a: "YES",
@@ -322,6 +368,7 @@ const questions = [
   },
 },
 {
+  id: "skin",
   question:"Do you have rash?",
   answers:{
       a: "YES",
@@ -329,6 +376,7 @@ const questions = [
   },
 },
 {
+  id: "respiratory",
   question:"Do you have cough?",
   answers:{
       a: "YES",
@@ -336,6 +384,7 @@ const questions = [
   },
 },
 {
+  id: "respiratory",
   question:"Do you have sore throat?",
   answers:{
       a: "YES",
@@ -343,6 +392,7 @@ const questions = [
   },
 },
 {
+  id: "overallHealth",
   question:"Do you have feeling tired?",
   answers:{
       a: "YES",
@@ -350,6 +400,7 @@ const questions = [
   },
 },
 {
+  id: "none",
   question:"Result",
   answers:{
       a: " ",
@@ -357,57 +408,90 @@ const questions = [
   },
 },
 ]
+let healthCategoriesUsed = []
 
 var currentQuestion = 0;
 
-    function init() {
-    nextQuestion();
+var flag = false;
+
+function init() {
+  if (!flag) {
+    document.getElementById("displ").style.display = "none";
+  } else {
+    console.log("yes");
+    document.getElementById("displ").style.display = "inline";
+  }
+}
+
+window.onload = init;
+
+function findHealthField() {
+      var head = document.querySelector("#head");
+      var exerciseAbility = document.querySelector("#exerciseAbility");
+      var urinary = document.querySelector("#urinary");
+      var mental = document.querySelector("#mental");
+      var skin = document.querySelector("#skin");
+      var digestive = document.querySelector("#digestive");
+      var overallHealth = document.querySelector("#overallHealth");
+      var respiratory = document.querySelector("#respiratory");
+      var blood = document.querySelector("#blood");
+      var muscleAndBone = document.querySelector("#muscleAndBone");
+      const healthCategories = [head, exerciseAbility, urinary, mental, skin, digestive, overallHealth, respiratory, blood, muscleAndBone];
+      for (let i = 0; i < healthCategories.length; i++) {
+        if (healthCategories[i].checked){
+          healthCategoriesUsed.push(healthCategories[i].value);
+        }
+      }
+      flag = true;
+      init();
+      document.getElementById("field").innerHTML = ""; 
+      nextQuestion();     
     }
     
-    window.onload = init;
-
     var responses = {};
     var random = ["#00BDD6FF", "#8353E2FF", "#4069E5FF", "#ED7D2DFF"];    
     
-
     function randomColor() {
       return Math.ceil(Math.random()*3);
     }
-
+  
     function nextQuestion() {
+
       document.getElementById("ans").innerHTML = '';
-      var question = questions[currentQuestion];      
-    
+      var question = questions[currentQuestion];
+      if (healthCategoriesUsed.includes(question.id)) {
       document.getElementById("question").innerHTML = question.question;
       
       var answers = question.answers;    
 
-      for (var answer in answers) {
-        
+      for (var answer in answers) {        
         var block_ans = document.createElement("div");
-
         block_ans.name = question.question;
         block_ans.id = "block-ans";
         block_ans.innerHTML = answers[answer];
         block_ans.style.backgroundColor = random[randomColor()];
-        
-
         document.getElementById("ans").appendChild(block_ans);            
-
         block_ans.addEventListener("click", function() {         
           responses[question.question] = this.innerHTML;
           nextQuestion();
-          if (currentQuestion == questions.length-1){
+          if (currentQuestion == Object.keys(questions).length-1){
             submitAnswers();
           }
           else {            
             currentQuestion++;
           }
           console.log(responses)
-        });        
+        });  
+      }
+    } else {
+      if (currentQuestion < Object.keys(questions).length-1) {
+        currentQuestion++;
+        nextQuestion();
       }
     }
-
+    
+    }
+  
   function submitAnswers() {
     document.getElementById("ans").innerHTML = ' ';
     document.getElementById("ans").remove();
@@ -445,8 +529,6 @@ var currentQuestion = 0;
       'Cirrhosis':['fatigue','easily bleeding','loss of appetite','nausea','swelling','weight loss','itchy skin','redness in the palms of the hands'],
       'AIDS_HIV':['diarrhea','fever','night sweats','headache','weight loss','muscle aches and joint pain','rash','cough','sore throat'],
   };
-// (correct / tree['Alzheimers Disease'].length) * 100
-// possibleDiseases.push(percentage + 'Alzheimers Disease');
 
     for (var question in responses) {
 
@@ -566,4 +648,4 @@ var currentQuestion = 0;
     console.log(possibleDiseases);
 
     return possibleDiseases;
-  }
+  } 

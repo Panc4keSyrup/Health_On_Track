@@ -259,10 +259,13 @@ color: black;
   background-color: #FFFF;
   border-radius: 20px;
 }
+#displ{
+	margin-top: 1em;
+}
 #ans{
   bottom: 0px;
   margin-top: 40px;
-  height: 50%;
+  height: 60vh;
   width: 98%;
   margin-right: auto;
   margin-left: auto;
